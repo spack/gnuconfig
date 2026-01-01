@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Copyright 2004-2025 Free Software Foundation, Inc.
+# Copyright 2004-2026 Free Software Foundation, Inc.
 # Contributed by Ben Elliston <bje@gnu.org>.
 #
 # This test reads pairs from config-sub.data: an alias and its
