@@ -7,7 +7,7 @@ check: check-guess check-sub
 manpages: doc/config.guess.1 doc/config.sub.1
 
 check-guess:
-	cd testsuite && bash config-guess.sh && rm uname
+	cd testsuite && bash config-guess.sh && rm uname ldd
 
 check-sub:
 	cd testsuite && bash config-sub.sh

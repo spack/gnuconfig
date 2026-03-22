@@ -45,6 +45,13 @@ EOF
 	return $rc
 }
 
+# Needed so the tests will emit -gnu instead of -musl when testing on a musl libc system.
+cat > ./ldd << EOF
+#!/bin/sh
+true
+EOF
+chmod +x ldd
+
 if sed 's, | ,|,g' < config-guess.data | run_config_guess ; then
 	numtests=$(wc -l config-guess.data | cut -d' ' -f1)
 	$verbose || echo "PASS: config.guess checks ($numtests tests)"
