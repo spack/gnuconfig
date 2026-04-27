@@ -1037,6 +1037,9 @@ sun4os3						sparc-sun-sunos3
 sun4os4						sparc-sun-sunos4
 sun4sol2					sparc-sun-solaris2
 sv1						sv1-cray-unicos
+sw_64					sw_64-unknown-none
+sw_64-linux				sw_64-unknown-linux-gnu
+sw_64-sunway-linux				sw_64-sunway-linux-gnu
 symmetry					i386-sequent-bsd
 t3e						alphaev5-cray-unicos
 t90						t90-cray-unicos

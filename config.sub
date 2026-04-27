@@ -4,7 +4,7 @@
 
 # shellcheck disable=SC2006,SC2268,SC2162 # see below for rationale
 
-timestamp='2026-01-01'
+timestamp='2026-04-27'
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -1432,6 +1432,7 @@ case $cpu-$vendor in
 			| sparcv9v \
 			| spu \
 			| sv1 \
+			| sw_64 \
 			| sx* \
 			| tahoe \
 			| thumbv7* \

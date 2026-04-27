@@ -127,6 +127,7 @@ riscv64be | ignored | Linux | ignored | ignored | riscv64be-unknown-linux-gnu
 s390x | 5.6 | SunOS | ignored | ignored | s390x-ibm-solaris2.6
 sun3 | 4.0 | SunOS | ignored | ignored | m68k-sun-sunos4.0
 sun4 | 5.6 | SunOS | ignored | ignored | sparc-sun-solaris2.6
+sw_64 | ignored | Linux | ignored | ignored | sw_64-unknown-linux-gnu
 tadpole | 5.6 | SunOS | ignored | ignored | sparc-sun-solaris2.6
 tile | 2.6.36 | Linux | ignored | ignored | tile-unknown-linux-gnu
 tilegx | 2.6.36 | Linux | ignored | ignored | tilegx-unknown-linux-gnu

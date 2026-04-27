@@ -4,7 +4,7 @@
 
 # shellcheck disable=SC2006,SC2268 # see below for rationale
 
-timestamp='2026-01-01'
+timestamp='2026-04-27'
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -1184,6 +1184,9 @@ EOF
 	GUESS=$UNAME_MACHINE-unknown-linux-$LIBC
 	;;
     sparc:Linux:*:* | sparc64:Linux:*:*)
+	GUESS=$UNAME_MACHINE-unknown-linux-$LIBC
+	;;
+    sw_64:Linux:*:*)
 	GUESS=$UNAME_MACHINE-unknown-linux-$LIBC
 	;;
     tile*:Linux:*:*)
