@@ -888,6 +888,8 @@ riscv64-company-elf				riscv64-company-elf
 riscv64-company-none-elf			riscv64-company-none-elf
 riscv64-elf					riscv64-unknown-elf
 riscv64-hcos					riscv64-unknown-hcos
+riscv64-ironclad				riscv64-unknown-ironclad-gnu
+riscv64-ironclad-mlibc				riscv64-unknown-ironclad-mlibc
 riscv64-linux					riscv64-unknown-linux-gnu
 riscv64-tock					riscv64-unknown-tock
 riscv64-wrs-vxworks				riscv64-wrs-vxworks
@@ -1132,6 +1134,7 @@ x86_64-ericsson-dicos				x86_64-ericsson-dicos
 x86_64-fuchsia					x86_64-pc-fuchsia
 x86_64-genode					x86_64-pc-genode
 x86_64-glidix					x86_64-pc-glidix
+x86_64-ironclad				x86_64-pc-ironclad-gnu
 x86_64-ironclad-mlibc				x86_64-pc-ironclad-mlibc
 x86_64-l4re					x86_64-pc-l4re
 x86_64-linux-llvm				x86_64-pc-linux-llvm
